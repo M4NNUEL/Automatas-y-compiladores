@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main() {
+    // Esto es un comentario de una línea
+
+    /*
+       Esto es un comentario
+       de varias líneas
+    */
+
+    int a = 5;       // Variable entera
+    float b = 3.14;  // Variable de punto flotante
+    int c = a + 10;  // Suma con una constante numérica
+
+    if (a > 0 && b < 10) {  // Operadores lógicos
+        c = a * b;          // Operador aritmético
+    }
+
+    for (int i = 0; i < 5; i++) {  // Bucle con palabras reservadas y constantes
+        std::cout << "Valor de i: " << i << std::endl;
+    }
+
+    return 0;
+}
